@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game</title>
+    <link rel=stylesheet href="style.css">
+     
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="boximg"> <img src="nine-img.jpg" > </div>
+
+        <div class="text">
+            <h1>Devenir le nombre</h1>
+            <p>Essayez de deviner un nombre entre "1 et 100" en un nombre minimum de coups.
+                <br>
+                Vous avez le droit de 10 tentatives pour deviner le bon nombre.
+            </p>
+        </div>
+
+        <div id="demo">
+            <input type="number" id="guessNum"  max="100"> <br>
+            <button type="submit" id="submit">
+                ENVOYER LE NOMBRE
+            </button>
+        </div>
+
+        <div class="result">
+
+            <p>le nombre de tentatives restantes:   <span id="restcounter"></span></p>
+            <h2 id="displaytext"></h2>
+            <h3 id="smalbig"></h3>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
