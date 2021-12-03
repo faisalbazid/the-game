@@ -9,7 +9,7 @@ var totalcount = 9;
 var countplus = 0;
 
 document.getElementById("submit").onclick = () => {
-    var usercheck = Number(input.value);
+    var usercheck = Number(guessNum.value);
 
     countplus++;
     input='';
