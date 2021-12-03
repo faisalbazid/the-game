@@ -8,8 +8,8 @@ var input = document.getElementById("guessNum");
 var totalcount = 9;
 var countplus = 0;
 
-document.getElementById("submit").onclick = (FUNCTION) => {
-    var usercheck = Number(guessNum.value);
+document.getElementById("submit").onclick = () => {
+    var usercheck = Number(input.value);
 
     countplus++;
     input='';
@@ -18,7 +18,7 @@ document.getElementById("submit").onclick = (FUNCTION) => {
         restcounter.textContent = `${totalcount--}`;
     }
 
-    if ( usercheck == randomnumber && countplus <= 2  ){
+    if ( usercheck == randomnumber && countplus < 2  ){
         displaytext.textContent = "Bravo, vous etes un Genie !!!";
         displaytext.style.color = "green";
         smalbig.textContent = '';
