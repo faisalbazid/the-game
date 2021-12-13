@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #f5daff;
+    margin:40px 200px ;
+    height:calc(100vh - 40px);
+    border: 2px dashed brown;
+    
+ 
+}
+.boximg img{
+    padding-top: 25px;
+    width: 300px; height: 200px;
+    display: flex;
+    margin: auto;
+   
+    
+    
+}
+.text h1{
+    font-family: Georgia;
+    text-align: center;
+    padding-top: 20px;
+    color: blueviolet;
+}
+.text p{
+    text-align: center;
+    padding-top: 10px;
+}
+#demo{
+    padding-top: 30px;
+    text-align: center;
+}
+#guessNum{
+    width: 220px;height: 100px;
+    text-align: center;
+    font-size:4rem;
+
+}
+#submit{
+padding: 10px;
+background-color: #5dd491;
+border:2px solid black;
+border-radius: 10px;
+cursor: pointer;
+margin-top: 10px;
+
+}
+
+.result p{
+    padding-left: 50px;
+    font-size: 1.5em;
+    text-decoration: underline;
+    font-style: italic;
+    }
+
+.result h2,h3{
+    text-align: center;
+    
+}
+#displaytext{
+    background-color: #fffb00;
+    font-size: 20px;
+    width: 25%;
+    margin:auto;
+}
+@media only screen and (max-width:850px) and ( min-width:520px) {
+
+    .container{
+        
+        height:500px;}
+    
+    .boximg{
+        width: 150px;
+        height: 100px;
+       justify-content: center;
+       
+    }
+        
+
+        
+            .text h1{
+                font-size: 12px;
+                color: #ff1e00;
+            }
+            .text p{
+                font-size:10px ;
+
+}
+#guessNum{
+    width: 110px;height: 70px;
+    font-size:2rem;
+
+}
+#submit{
+padding:5px;
+width: 80%;
+}
+.result p{
+    padding-left:0;
+    font-size: 0.7em;
+    text-decoration: none;
+    font-style: 0;
+    text-align: center;
+    padding:10px 0px ;
+    }
+}
+@media only screen and (max-width:520px) and ( min-width:475px) {
+    .boximg{
+        width: 80%;
+        height: 75px;
+       justify-content: center;
+       
+    }
+    .text h1{
+        font-size: 9px;
+        
+    }
+    .text p{
+        font-size:7px ;
+
+}
+#guessNum{
+    width: 60px;height: 40px;
+    font-size:1rem;
+
+}
+#submit{
+padding:5px;
+width: 50%;
+font-size: 5px;
+}
+.result p{
+    
+    
+    font-size: 0.5em;
+    text-decoration: none;
+    font-style: 0;
+    text-align: center;
+    padding:10px 2px ;
+    }
+}
+@media only screen and (max-width:475px) and ( min-width:414px) {
+    .container{
+        
+        width:100px;
+    margin: auto;
+display: block;}
+
+         .boximg{
+        width: 80%;
+        height: 75px;
+       justify-content: center;
+       
+    }
+    .text h1{
+        font-size: 9px;
+        
+    }
+    .text p{
+        font-size:7px ;
+
+}
+#guessNum{
+    width: 60px;height: 40px;
+    font-size:1rem;
+
+}
+#submit{
+padding:5px;
+width: 50%;
+font-size: 5px;
+}
+.result p{
+    
+    
+    font-size: 0.5em;
+    text-decoration: none;
+    font-style: 0;
+    text-align: center;
+    padding:10px 2px ;
+    }
+}
+@media only screen and (max-width:414px) {
+    .container{
+        
+        width:100px;
+    margin: auto;
+display: block;}
+
+         .boximg{
+        width: 80%;
+        height: 75px;
+       justify-content: center;
+       
+    }
+    .text h1{
+        font-size: 9px;
+        
+    }
+    .text p{
+        font-size:7px ;
+
+}
+#guessNum{
+    width: 60px;height: 40px;
+    font-size:1rem;
+
+}
+#submit{
+padding:5px;
+width: 50%;
+font-size: 5px;
+}
+.result p{
+    
+    
+    font-size: 0.5em;
+    text-decoration: none;
+    font-style: 0;
+    text-align: center;
+    padding:10px 2px ;
+    }
+}
